@@ -17,8 +17,10 @@ def lcs_length(X, Y):
                 b[i][j] = "arrow_left"
     return c, b
 
-X = ["A","B","C","B","D","A","B"]
-Y = ["B","D","C","A","B","A"]
+# erste Element wird ignoriert, da 0
+X = ["A","D","A","D","D","A","B"]
+Y = ["A","D","A","D","D","A","B"]
+
 #print(lcs_length(X, Y))
 
 def print_lcs(b, X, i, j):
