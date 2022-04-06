@@ -6,7 +6,7 @@ def lcs_length(X, Y):
 
     for i in range(0, m):
         for j in range(0, n):
-            if m == n and X[i] == Y[i]:
+            if X[i] == Y[j]:
                 c[i][j] = c[i - 1][j - 1] + 1
                 b[i][j] = "CAN"
             elif c[i - 1][j] >= c[i][j - 1]:
@@ -18,7 +18,7 @@ def lcs_length(X, Y):
     return c, b
 
 X = ["A","B","C","B","D","A","B"]
-Y = ["B","D","C","A","B","A","B"]
+Y = ["B","D","C","A","B","A"]
 #print(lcs_length(X, Y))
 
 def print_lcs(b, X, i, j):
