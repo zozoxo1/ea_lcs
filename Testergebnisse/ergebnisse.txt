@@ -1,0 +1,20 @@
+--------------------------------------
+Länge der LCS (Kurze Sequenzen): 3
+0.0000000000s
+--------------------------------------
+Länge der LCS (Kurze Sequenzen): 3
+0.0000000000s
+--------------------------------------
+Länge der LCS (Mittlere Sequenzen): 371
+0.1380045414s
+--------------------------------------
+Länge der LCS (Mittlere Sequenzen): 371
+0.1589946747s
+--------------------------------------
+Länge der LCS (Lange Sequenzen): 10159
+117.3762154579s
+--------------------------------------
+Länge der LCS (Lange Sequenzen): 10159
+206.5593249798s
+
+Process finished with exit code 0
