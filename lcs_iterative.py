@@ -1,4 +1,4 @@
-def lcs_recursive(S1, S2):
+def lcs_iterative(S1, S2):
     m = len(S1)
     n = len(S2)
     L = [[0 for x in range(n + 1)] for x in range(m + 1)]
